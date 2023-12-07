@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-produto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+#card-produto-1{
+    border: 2px solid black;
+    padding:10px;
+    margin:10px;
+    width: 220px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 110px;
+    margin: 5px;
+}
+
+.logo-nome{
+    display: flex;
+    text-align: center;
+}
+
+.name{
+    margin: 45px;
+    font-family: 'Russo One', sans-serif;
+    font-size:3em ;
+   
+}
+
+main{
+    max-width: 1500px;
+    display: flex;
+    margin:auto;
+}
+
+.btns{
+    display: flex;
+    align-items: end;
+    
+    
+}
+
+aside{
+    position: fixed ;
+    top: 0;
+    right: -360px;
+    height: 100vh;
+    color: black;
+    background-color: ghostwhite;
+    width: 360px;
+}
+
+
+#cabecalho-carrinho{
+    display: flex;
+    justify-content: space-between;
+    
+}
